@@ -1,7 +1,7 @@
-= ERB Util Extensions
+= Ruby Gem: ERB Util Extensions
 
 Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
-Copyright:: Copyright (c) 2006-2008 Joel Parker Henderson
+Copyright:: Copyright (c) 2006-2009 Joel Parker Henderson
 License:: CreativeCommons License, Non-commercial Share Alike
 License:: LGPL, GNU Lesser General Public License
 
