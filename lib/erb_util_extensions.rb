@@ -8,7 +8,7 @@
 # Wrap the methods from the html_output gem into module ERB::Util
 ##
 
-require 'html_output'
+require 'html' 
 require 'actionpack'
 require 'erb' 
 
