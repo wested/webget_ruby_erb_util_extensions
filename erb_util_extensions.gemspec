@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
 
   s.name              = "webget_ruby_erb_util_extensions"
   s.summary           = "WebGet.com Ruby ERB Util extensions for outputting HTML tags"
-  s.version           = "1.0.4"
+  s.version           = "1.0.6"
   s.author            = "WebGet"
   s.email             = "webget@webget.com"
   s.homepage          = "http://webget.com/"
