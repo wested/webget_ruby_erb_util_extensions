@@ -14,7 +14,7 @@ require 'erb'
 
 class ERB
  module Util
-  include HTMLOutput
+  include HTML
   module_function :table
   module_function :tables
   module_function :thead
