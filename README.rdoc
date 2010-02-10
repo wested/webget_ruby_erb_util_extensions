@@ -1,8 +1,10 @@
-= Ruby Gem: ERB Util Extensions
+
+= WebGet Ruby Gem: ERB Util Extensions
 
 Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
-Copyright:: Copyright (c) 2006-2009 Joel Parker Henderson
+Copyright:: Copyright (c) 2006-2010 Joel Parker Henderson
 License:: CreativeCommons License, Non-commercial Share Alike
 License:: LGPL, GNU Lesser General Public License
 
 Wrap the methods from the html_output gem into module ERB::Util
+

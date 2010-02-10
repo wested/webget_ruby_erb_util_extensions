@@ -1,12 +1,15 @@
-# = Ruby Gem: ERB Util Extensions
-#
-# Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
-# Copyright:: Copyright (c) 2006-2009 Joel Parker Henderson
-# License:: CreativeCommons License, Non-commercial Share Alike
-# License:: LGPL, GNU Lesser General Public License
-#
-# Wrap the methods from the html_output gem into module ERB::Util
-##
+=begin rdoc
+
+= WebGet Ruby Gem: ERB Util Extensions
+
+Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
+Copyright:: Copyright (c) 2006-2010 Joel Parker Henderson
+License:: CreativeCommons License, Non-commercial Share Alike
+License:: LGPL, GNU Lesser General Public License
+
+Wrap the methods from the html_output gem into module ERB::Util
+
+=end
 
 require 'html' 
 require 'actionpack'
@@ -15,6 +18,8 @@ require 'erb'
 class ERB
  module Util
   include HTML
+  module_function :comment
+  module_function :wrap
   module_function :table
   module_function :tables
   module_function :thead
