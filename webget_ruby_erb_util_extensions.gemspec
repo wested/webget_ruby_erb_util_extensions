@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.platform          = Gem::Platform::RUBY
   s.require_path      = 'lib'
   s.has_rdoc          = true
-  s.files             = ['lib/webget_ruby_erb_util_extensions.rb']
+  s.files             = ['README.rdoc','LICENSE.txt','lib/webget_ruby_erb_util_extensions.rb']
 
   s.add_dependency('webget_ruby_html', '>=1.0.6')
   s.add_dependency('actionpack', '>=2.2.2')
