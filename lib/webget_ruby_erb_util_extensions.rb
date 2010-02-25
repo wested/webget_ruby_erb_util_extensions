@@ -11,7 +11,7 @@ Wrap the methods from the html_output gem into module ERB::Util
 
 =end
 
-require 'html' 
+require 'webget_ruby_html' 
 require 'actionpack'
 require 'erb' 
 
