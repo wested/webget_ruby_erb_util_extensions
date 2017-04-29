@@ -25,7 +25,7 @@ jQuery.fn.quicksearch = function( target, searchElems, options ) {
 };
 
 
-jQuery.quicksearch = function( searchBox, searchElems, settings ) {
+jQuery.quicksearch = (searchBox, searchElems, settings) => {
 	var timeout;
 	var boxdiv = $(searchBox).parents('div').eq(0);
 
@@ -38,10 +38,10 @@ jQuery.quicksearch = function( searchBox, searchElems, settings ) {
 		// console.debug( "Hooking up the 'keypress' event to %o", searchBox );
 		$(searchBox).
 			unbind( 'keyup' ).
-			keyup( function(e) { return onSearchKey( e.keyCode ); });
+			keyup( e => onSearchKey( e.keyCode ));
 		$(searchBox).
 			unbind( 'keypress' ).
-			keypress( function(e) {
+			keypress( e => {
 				switch( e.which ) {
 					// Execute the search on Enter, Tab, or Newline
 					case 9:

@@ -14,7 +14,7 @@ if (!("console" in window) || !("firebug" in console)) {
 
     window.console = {};
     for (var i = 0; i < names.length; ++i)
-        window.console[names[i]] = function() {};
+        window.console[names[i]] = () => {};
 };
 
 
@@ -63,7 +63,7 @@ function hookQuickSearch() {
 			noSearchResultsIndicator: 'no-class-search-results',
 			focusOnLoad: false
 		});
-		$(toggle).click( function() {
+		$(toggle).click( () => {
 			// console.debug( "Toggling qsbox: %o", qsbox );
 			$(qsbox).toggle();
 		});
@@ -106,7 +106,7 @@ function highlightClickTarget( event ) {
 };
 
 
-$(document).ready( function() {
+$(document).ready( () => {
 	hookSourceViews();
 	hookDebuggingToggle();
 	hookQuickSearch();
